@@ -4,11 +4,11 @@ A collection of reusable VS Code Copilot agent primitives — custom agents, ins
 
 ## Repository Structure
 
-```
+```text
 agents/          # Custom agent definitions
 instructions/    # Reusable instruction files
 prompts/         # Prompt files (empty)
-skills/          # Skill definitions (empty)
+skills/          # Skill definitions
 ```
 
 ## Agents
@@ -34,3 +34,13 @@ Output conventions for a multi-repo system documentation framework, defining the
 ### `yaml-artifact-format.instructions.md`
 
 Standards for YAML documentation artifacts, including the dual-format rule (YAML + Markdown), key naming (`kebab-case`), required headers, security rules (no secrets), data classification tags, cross-reference format, and validation checklist.
+
+## Skills
+
+### `google-authentication`
+
+A reusable skill for designing, implementing, debugging, and reviewing Google Authentication flows. Covers Google Sign-In, OAuth 2.0 and OpenID Connect flow selection, Google Cloud credential configuration, backend token validation, common auth failures, and a security-focused validation checklist.
+
+### `youtube-api`
+
+A reusable skill for designing, implementing, debugging, and reviewing read-only YouTube API integrations. Covers YouTube Data API v3 endpoint selection for public data, API key configuration, channel and playlist reads, search, pagination, quota management, common read-path failures, and reusable planning and review templates.
