@@ -1,8 +1,11 @@
 ---
 description: "Use when generating Mermaid diagrams for multi-repo system documentation. Covers architecture diagrams, data models, sequence flows, dependency graphs, and event topology visualizations."
+applyTo: '**/*.md'
 ---
 
 # Mermaid Diagram Conventions
+
+Any diagrams should be created using Mermaid syntax and follow the conventions outlined below to ensure consistency across documentation. These guidelines cover diagram type selection, styling rules, size guidelines, and Markdown integration.
 
 ## Diagram Type Selection
 
