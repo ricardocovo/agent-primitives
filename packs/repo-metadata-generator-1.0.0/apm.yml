@@ -1,0 +1,27 @@
+name: repo-metadata-generator
+version: 1.0.0
+description: Primitives needed to generate architecture metadata for a given repository
+author: Ricardo Covo
+dependencies:
+  apm:
+  - ricardocovo/agent-primitives/architect-metadata-generator/agents/repo-analyzer.agent.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/instructions/mermaid-diagrams.instructions.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/instructions/multi-repo-output.instructions.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/instructions/yaml-artifact-format.instructions.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-01-repo-identity.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-02-api-contracts.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-03-data-model.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-04-dependencies.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-05-events-catalog.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-06-configuration.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-07-deployment.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-08-architecture.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-09-security-profile.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-10-domain-context.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-11-ops-profile.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-12-pipeline-spec.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/prompts/p1-13-runtime-behavior.prompt.md
+  - ricardocovo/agent-primitives/architect-metadata-generator/skills/repo-documentation
+  - ricardocovo/agent-primitives/architect-metadata-generator/skills/runtime-analysis
+  mcp: []
+scripts: {}
