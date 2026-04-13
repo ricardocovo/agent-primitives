@@ -1,0 +1,161 @@
+pack:
+  format: apm
+  target: vscode
+  packed_at: '2026-04-13T01:27:03.721591+00:00'
+lockfile_version: '1'
+generated_at: '2026-04-13T00:01:44.591721+00:00'
+apm_version: 0.8.9
+dependencies:
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/agents/repo-analyzer.agent.md
+  is_virtual: true
+  deployed_files:
+  - .github/agents/repo-analyzer.agent.md
+  content_hash: sha256:9e89ae346ca58a736182e887148643d24e40bbd9db8dc435dd0d29742aae60b1
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/instructions/mermaid-diagrams.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/mermaid-diagrams.instructions.md
+  content_hash: sha256:2086393aae3a584911cd9909f1aec9ed519ca57f981f70d126c6a5940c139799
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/instructions/multi-repo-output.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/multi-repo-output.instructions.md
+  content_hash: sha256:6877696059fd2912f315d49714443f047c234e7d312edd7d34148f47c3f1cfbd
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/instructions/yaml-artifact-format.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/yaml-artifact-format.instructions.md
+  content_hash: sha256:be1d692babfe5bb4572e5e3865a83b653d3d8d0588b9f73f62f225edb486fc22
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-01-repo-identity.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-01-repo-identity.prompt.md
+  content_hash: sha256:2a7cf836f8b4fed240ffbf8d5738d4066765dd9b06b2f4ff12e03fbb5829c8a5
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-02-api-contracts.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-02-api-contracts.prompt.md
+  content_hash: sha256:c855e60187d7374d4c3c78801c39c67ae00a0f4a8e26fc1af024da6baa7a2410
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-03-data-model.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-03-data-model.prompt.md
+  content_hash: sha256:e2fc19575bb6408d4242672510eedd684c24456412330f48aa859add2de62dff
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-04-dependencies.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-04-dependencies.prompt.md
+  content_hash: sha256:c93753f533a65d5db83d54f4f9f1a6a33fad96b647f223326a0da569779ca558
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-05-events-catalog.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-05-events-catalog.prompt.md
+  content_hash: sha256:aa8f11bb2603e5ce285427a3c8c50010c85470d66f4caaf7a27082410f65ae05
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-06-configuration.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-06-configuration.prompt.md
+  content_hash: sha256:0b74fc8359013b4fa7f13c147855c123d048afe159e79b986e5477cd1eea622f
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-07-deployment.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-07-deployment.prompt.md
+  content_hash: sha256:2909f2a16306e76c2033b035260782ea7541f3d21df0940086f01928b4bd38b5
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-08-architecture.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-08-architecture.prompt.md
+  content_hash: sha256:609c7b8cd65d2b64520fac58501b0fb4c6d988e14008a0c97a63c53056117b55
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-09-security-profile.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-09-security-profile.prompt.md
+  content_hash: sha256:952f748d324f77eb436b096eb7d74494d98c6d39d4feed6899c498accc5991db
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-10-domain-context.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-10-domain-context.prompt.md
+  content_hash: sha256:c91864d432d2a7a0d092fbf65574d54559e71f67cfac69adae8d4041fc2937bf
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-11-ops-profile.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-11-ops-profile.prompt.md
+  content_hash: sha256:ff3b0332a8bbab3e3a4cd70b2804df3a141f7016e947306c4aecfb73f655c6fb
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-12-pipeline-spec.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-12-pipeline-spec.prompt.md
+  content_hash: sha256:b93b3d17a8b21663fd38b428c35af7848aa56432a61ce7f973dd123ebfe6c50f
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  virtual_path: architect-metadata-generator/prompts/p1-13-runtime-behavior.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/p1-13-runtime-behavior.prompt.md
+  content_hash: sha256:1a6acaa80bb97f5bafa9cf581fd6b3bcbef98752864c553a75bdcd8df294a296
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  resolved_commit: 94b9c0356a8d90e2f7b1af6a5ff4a5a48ebc8b29
+  virtual_path: architect-metadata-generator/skills/repo-documentation
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .github/skills/repo-documentation
+  content_hash: sha256:e1893d95e7d7b36b3340d8625d44360c726846baa08366feb733dc3211fbf346
+- repo_url: ricardocovo/agent-primitives
+  host: github.com
+  resolved_commit: 94b9c0356a8d90e2f7b1af6a5ff4a5a48ebc8b29
+  virtual_path: architect-metadata-generator/skills/runtime-analysis
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .github/skills/runtime-analysis
+  content_hash: sha256:fa4f6e5dd85f3b253d5bd2b0e1654f9425814a845026e89a4fa9c198b4c6c5fd
