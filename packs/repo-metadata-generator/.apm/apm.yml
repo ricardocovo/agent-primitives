@@ -1,0 +1,6 @@
+name: repo-metadata-generator
+version: 1.0.0
+description: Primitives to generate standard metadata for repositories.
+
+dependencies:
+  apm: []
